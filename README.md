@@ -12,6 +12,24 @@
 This includes a few pull requests from the forked github repository. It does not seem to be maintained particularly and 
 these changes are low-risk and useful (such as adding a getRssi method). See the updater branch for latest code. MZ
 
+I think that this is an accurate summary of the commits. All 2021.
+
+```
+Sep 16: repair connect timeout issue
+Sep 16: widen ios protobuf version allowed
+Sep 15: add mtu wait repair
+Aug 20: Read the RSSI for a connected device …
+May 20: Fix null related warnings
+May 20: Update rxdart
+May 20: Update rxdart
+Apr 21: function to turn or off bluetooth
+Apr 21: function to turn or off bluetooth
+Apr 10: change messages to debug loglevel
+Apr 9: added lock for teardown
+Apr 9: add null check if channel is already teared down
+Apr 9: change initialization to work with flutter_isolate and foreground_service
+```
+
 ## Introduction
 
 FlutterBlue is a bluetooth plugin for [Flutter](https://flutter.dev), a new app SDK to help developers build modern multi-platform apps.
